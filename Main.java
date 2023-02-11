@@ -16,7 +16,7 @@ public class Main {
         double totalAmountWithDiscount = shoppingCart.getTheTotalAmountFromTheDiscount();
         double amountWithoutDiscount = shoppingCart.getTheTotalAmountOfVegetarianItemsWithoutDiscount();
 
-        System.out.println("Общая сумма товаров без скидки - " + totalAmount);
+        System.out.println("Общая сумма товаров без скидки для нас - " + totalAmount);
         System.out.println("Общая сумма товаров со скидкой - " + totalAmountWithDiscount);
         System.out.println("Сумма всех вегетарианских продуктов без скидки - " + amountWithoutDiscount);
     }
